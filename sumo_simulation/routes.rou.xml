@@ -1,0 +1,10 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5"/>
+    
+    <!-- Define the route before using it -->
+    <route id="AtoB" edges="AtoB"/>
+
+    <!-- Now you can use the route in a flow -->
+    <flow id="veh1" type="car" begin="0" end="1000" number="100" route="AtoB"/>
+</routes>
+
